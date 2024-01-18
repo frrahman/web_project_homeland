@@ -1,0 +1,12 @@
+.intro__quote {
+  width: 618px;
+  height: 196px;
+  margin: 40px 125px 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  /* or 142% */
+  color: #ffffff;
+}

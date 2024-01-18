@@ -1,0 +1,237 @@
+/* Styles untuk resolusi di bawah 543px */
+@media (max-width: 543px) {
+  .header__logo {
+    width: 80%;
+  }
+  .lead {
+    height: 60%;
+    margin: 0 0;
+  }
+  .lead__container {
+    width: 100%;
+  }
+  .lead__title {
+    width: 80%;
+    font-size: 42px;
+    line-height: 1.5;
+  }
+  .lead__subtitle {
+    width: 85%;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .lead__image {
+    width: 100%;
+    height: 80%;
+    margin: 34px 0 0;
+  }
+  .intro {
+    width: 100%;
+    height: 900px;
+    margin: 16px 0 12px;
+  }
+  .intro__title {
+    width: 90%;
+    height: 20%;
+    font-size: 30px;
+    font-weight: 320px;
+    line-height: 1.5;
+    margin: 28px auto 0;
+  }
+  .intro__quote {
+    width: 85%;
+    margin: 25px 0 0 20px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .intro__author {
+    width: 100%;
+  }
+  .intro__text {
+    width: 90%;
+    height: 40%;
+    margin: 120px 0 0 20px;
+    line-height: 1.5;
+  }
+  .photo-grid__container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 16px;
+  }
+  .places {
+    width: 100%;
+    height: 100%;
+  }
+  .place {
+    width: 100%;
+    height: 100%;
+    position: none;
+    margin-top: 20px;
+  }
+  .place__title {
+    width: 80%;
+    font-size: 24px;
+    margin: 32px 0 0 16px;
+  }
+  .place__container {
+    display: block;
+  }
+  .place__image {
+    width: 100%;
+    height: 20%;
+    margin-top: 10px;
+  }
+  .place__website {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .place__paragraph {
+    width: 93%;
+    font-size: 15px;
+    margin-left: 16px;
+  }
+  .frame {
+    width: 90%;
+    margin: auto;
+  }
+  .frame__paragraph {
+    font-size: 14px;
+  }
+  .cover {
+    max-width: 100%;
+    height: 200px;
+  }
+  .cover__title {
+    font-size: 32px;
+    line-height: 46px;
+    font-weight: 300px;
+    margin: 15px auto 0;
+  }
+  .cover__subtitle {
+    font-size: 15px;
+    line-height: 12px;
+    font-weight: 60px;
+    margin: 12px auto 0;
+    width: 50%;
+    height: 30%;
+  }
+  .cover__button {
+    max-width: 90%;
+    height: 18%;
+  }
+  .cover__paragraph {
+    font-size: 16px;
+    line-height: 9px;
+    margin-top: 8px;
+  }
+}
+
+/* Styles untuk resolusi di antara 544px dan 767px */
+@media (min-width: 544px) and (max-width: 768px) {
+  .header__logo {
+    width: 80%;
+  }
+  .lead {
+    margin-top: 12px;
+    height: 80%;
+  }
+  .lead__container {
+    width: 100%;
+  }
+  .lead__title {
+    width: 80%;
+    font-size: 98px;
+    line-height: 1.2;
+  }
+  .lead__subtitle {
+    width: 100%;
+    font-size: 28px;
+    line-height: 1.5;
+  }
+  .lead__image {
+    width: 100%;
+    margin: 34px auto 0;
+    height: 100%;
+  }
+  .intro {
+    width: 90%;
+    height: 100%;
+    margin-top: 98px;
+  }
+  .intro__title {
+    width: 100%;
+    height: 30%;
+    font-size: 48px;
+    font-weight: 320px;
+    line-height: 1;
+    margin: 68px auto 24px;
+  }
+  .intro__quote {
+    width: 100%;
+    margin: 24px auto 32px;
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  .intro__author {
+    width: 90%;
+    margin: 40px;
+  }
+  .intro__text {
+    width: 100%;
+    height: 100%;
+    margin: 90px auto 32px;
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  .photo-grid__container {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: auto;
+    grid-gap: 16px;
+  }
+  .places {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+  }
+  .place {
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+  }
+  .place__title {
+    width: 40%;
+    font-size: 38px;
+    margin: 8px 0 0 28px;
+    position: absolute;
+    line-height: 1.2;
+  }
+  .place__website {
+    width: 40%;
+    margin: 0 0 0 388px;
+    padding-top: 10px;
+  }
+  .place__container {
+    width: 96%;
+  }
+  .place__image {
+    width: 45%;
+    height: 20%;
+    margin: 36px 20px 0 28px;
+  }
+
+  .place__paragraph {
+    font-size: 15px;
+    margin: 14px 0 0 15px;
+  }
+  .frame {
+    width: 35%;
+    margin-left: 28px;
+    position: relative;
+    margin-bottom: 60px;
+  }
+  .frame__paragraph {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,13 @@
+.frame {
+  width: 304px;
+  height: 48px;
+  background: #0278fe;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  clear: both;
+  display: block;
+}
+.frame:hover {
+  background-color: #0063d2;
+}

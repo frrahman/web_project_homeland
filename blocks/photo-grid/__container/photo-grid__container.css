@@ -1,0 +1,8 @@
+.photo-grid__container {
+  max-width: 90%;
+  margin: 65px auto 0;
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-template-rows: 48% 48%;
+  grid-gap: 16px;
+}

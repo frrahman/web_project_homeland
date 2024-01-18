@@ -1,0 +1,15 @@
+.cover__button {
+  width: 137px;
+  height: 48px;
+  background: #0278fe;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: auto;
+}
+.cover__button:hover {
+  background-color: #0063d2;
+}
