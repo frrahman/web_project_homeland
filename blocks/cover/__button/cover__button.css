@@ -9,6 +9,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin: auto;
+  text-decoration: none;
 }
 .cover__button:hover {
   background-color: #0063d2;
